@@ -4,7 +4,12 @@ public class main {
     int i = 10;
     int j = 20;
     int c = i + j; 
-        System.out.println("Addition of i+j:"   +c);
+    int d = i - j;
+    int e = i * j;    
+        
+        System.out.println("Addition of i+j:" ,  +c);  
+        System.out.println("Subtraction of  i-j:" , +d);
+        System.out.println("Multiplication of  i*j:" , +e);
     
     
     }
